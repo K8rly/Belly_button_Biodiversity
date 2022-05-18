@@ -96,7 +96,7 @@ var barLayout = {
     // 10. Use Plotly to plot the data with the layout. 
     Plotly.newPlot("bar", barData, barLayout);
   });
-}
+
 // Bar and Bubble charts
  
 
@@ -123,4 +123,4 @@ var bubbleLayout = {
 console.log(bubbleData)
     // 3. Use Plotly to plot the data with the layout.
 Plotly.newPlot("bubble", bubbleData, bubbleLayout);
-  
+}
