@@ -119,8 +119,9 @@ var bubbleData = [
 var bubbleLayout = {
     title: 'Bacteria Cultures Per Sample',
     xaxis: {title:'OTU ID'},
-    yaxis: {title:'Sample Values'},    
+    yaxis: {title:'Sample Values'}, 
     hovermode: {"closest": true},
+    
     };
 
     // 3. Use Plotly to plot the data with the layout.
@@ -143,7 +144,7 @@ var bubbleLayout = {
       mode: "gauge+number",
       gauge: {
         axis: {range: [null, 10], dtick: 2}, 
-        bar: {color: "darkblue"},
+        bar: {color: "black"},
         steps: [
         { range: [0, 2], color: "purple" },
         { range: [2, 4], color: "red" },
